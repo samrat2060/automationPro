@@ -1,0 +1,17 @@
+
+  public class leapyear{
+    public static void days(){
+    int days=100;
+     if((days==28)||(days==29)){
+        System.out.println("this is leap year");
+    }
+  else if((days==30)||(days==31)){
+    System.out.println("this is not leap year");
+ }
+  else
+   System.out.println("invalid year");
+}
+  public static void main(String[]args){
+  leapyear.days();
+}
+}
