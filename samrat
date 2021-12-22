@@ -1,0 +1,20 @@
+  public class Call{
+  public static void c_1(int a,int b){
+   int c=a+b;
+   int d=a-b;
+  System.out.println("c="+c);
+  System.out.println("d="+d);
+
+}
+  public void c_2(int i,int j){
+    int k=i*j;
+    int m=i/j;
+    int n=i%j;
+   System.out.println("k="+k);
+   System.out.println("m="+m);
+   System.out.println("n"+n);
+
+}
+
+ 
+}
